@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this model, please cite it as below."
+type: software
+
+authors:
+  - family-names: Loyer
+    given-names: Dominique
+    orcid: "https://orcid.org/0009-0003-9713-7109"
+
+title: "opus-mt-fr-en-finetuned-fr-to-en"
+version: "9f5ab86"
+date-released: "2026-02-28"
+year: 2026
+
+url: "https://huggingface.co/DomLoyer/opus-mt-fr-en-finetuned-fr-to-en"
+repository-code: "https://huggingface.co/DomLoyer/opus-mt-fr-en-finetuned-fr-to-en"
+
+doi: "10.57967/hf/7422"
+publisher: "Hugging Face"
+
+license: "CC-BY-4.0"
+
+keywords:
+  - translation
+  - NMT
+  - french-to-english
+  - MarianMT
+  - opus-mt
+  - neuro-symbolic AI
+  - credibility verification
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Loyer
+      given-names: Dominique
+      orcid: "https://orcid.org/0009-0003-9713-7109"
+  title: "opus-mt-fr-en-finetuned-fr-to-en (Revision 9f5ab86)"
+  year: 2026
+  url: "https://huggingface.co/DomLoyer/opus-mt-fr-en-finetuned-fr-to-en"
+  doi: "10.57967/hf/7422"
+  publisher: "Hugging Face"
