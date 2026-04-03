@@ -1,3 +1,66 @@
+# engllish2french
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19411257.svg)](https://doi.org/10.5281/zenodo.19411257)
+[![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/DomLoyer/opus-mt-fr-en-finetuned-fr-to-en)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![Transformers](https://img.shields.io/badge/Transformers-Hugging%20Face-orange)](https://github.com/huggingface/transformers)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+Fine-tuned machine translation project for French-to-English translation based on the OPUS-MT architecture.
+
+## Overview
+
+This repository contains the code, configuration, and documentation for a French-to-English neural machine translation project.  
+The corresponding trained model is available on Hugging Face.
+
+- GitHub repository: `https://github.com/DominiqueLoyer/engllish2french`
+- Hugging Face model: `https://huggingface.co/DomLoyer/opus-mt-fr-en-finetuned-fr-to-en`
+- Zenodo DOI: `https://doi.org/10.5281/zenodo.19411257`
+
+## Model
+
+The hosted model is:
+
+- `DomLoyer/opus-mt-fr-en-finetuned-fr-to-en`
+
+It is intended for machine translation from French to English.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/DominiqueLoyer/engllish2french.git
+cd engllish2french
+```
+
+
+# create a virtual env
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install transformers sentencepiece torch
+
+```
+
+## Repository Structure
+
+A typical structure for this project is:
+
+```text
+engllish2french/
+├── README.md
+├── requirements.txt
+├── train.py
+├── evaluate.py
+├── inference.py
+├── data/
+├── outputs/
+└── notebooks/
+
+
 
 ---
 language:
@@ -158,6 +221,11 @@ result = translator("La crédibilité de l'information est essentielle à l'ère
 print(result['translation_text'])
 ```
 
+Links
+	•	GitHub: https://github.com/DominiqueLoyer/engllish2french
+	•	Hugging Face: https://huggingface.co/DomLoyer/opus-mt-fr-en-finetuned-fr-to-en
+	•	Zenodo: https://doi.org/10.5281/zenodo.19411257
+	•	ORCID: https://orcid.org/0009-0003-9713-7109
 
 
 Citation:
